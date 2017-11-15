@@ -5,9 +5,6 @@ import java.io.*;
 import java.text.*;
 import java.util.*;
 
-/**
- * helper metódusok
- */
 public class Util {
     private static String currentip = null;
 
