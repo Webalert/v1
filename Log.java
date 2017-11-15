@@ -4,14 +4,10 @@ import java.util.concurrent.*;
 import org.apache.log4j.*;
 
 
-/**
- * egyszerű, logolást segítő osztály
- **/
 public class Log {
 
     private static Logger log = Logger.getLogger(Log.class);
 
-    //engedélyezve van-e a logolás?
     public static boolean enable = true;
 
     public static void log(Object... s) {
